@@ -1,0 +1,28 @@
+
+.parent{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.child1{
+    background: greenyellow;
+    padding: 50px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.child2{
+    background: rgb(188, 219, 9);
+    padding: 50px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.child3{
+    background: rgb(148, 158, 2);
+    padding: 50px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
