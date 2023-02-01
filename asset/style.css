@@ -3,6 +3,7 @@
 *{
     padding: 0px;
     margin: 0px;
+    /* border: 1px solid red; */
 }
 
 header{
@@ -79,6 +80,9 @@ span{
     background-blend-mode: overlay;
     color: white;
     padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .btn-sl{
     font-size: 20px;
@@ -95,7 +99,9 @@ span{
     width: 50%;
     padding: 10px;
 }
-
+.service-left-con{
+    width: 50%;
+}
 .ceo{
     display: flex;
     align-items: center;
@@ -122,6 +128,54 @@ ol{
 }
 
 
-.service-left-con{}
 
-.
+
+.services-up{
+    display: flex;
+}
+
+.services-down{
+    display: flex;
+}
+.service{
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 4px 4px 8px;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+    margin: 5px;
+
+}
+
+.service-logo{
+    width: 50%;
+}
+
+.call-icons{
+    width: 90px;
+    
+}
+
+.booking{
+    display: flex;
+    width: 75%;
+    align-items: center;
+    background-color: red;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    margin: auto;
+    margin: -25px;
+}
+.call{
+    display: flex;
+    border-right: 1px solid #808080;
+}
+.appointment{
+    display: flex;
+    margin: auto;
+    padding: 10px;
+}
